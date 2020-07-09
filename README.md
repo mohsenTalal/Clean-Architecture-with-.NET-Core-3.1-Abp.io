@@ -4,8 +4,6 @@
 **ABP Documentation
 ABP is an open-source application framework focused on ASP.NET Core based web application development. It also supports developing other types of applications.**
 
-**ABP Documentation
-ABP is an open-source application framework focused on ASP.NET Core based web application development. It also supports developing other types of applications.**
 
 ## Let’s start with an overview of Clean Architecture.
 
@@ -19,3 +17,7 @@ ABP is an open-source application framework focused on ASP.NET Core based web ap
 The Domain layer contains enterprise logic and types and the Application layer contains business logic and types. The difference is that enterprise logic could be shared across many systems, whereas the business logic will typically only be used within this system.**
 
 **Core should not be dependent on data access and other infrastructure, Infrastructure layer not implemented until now, next version I'll implement, So concerns so those dependencies are inverted. This is achieved by adding interfaces or abstractions within Core that are implemented by layers outside of Core. For example, if you wanted to implement the Repository pattern you would do so by adding an interface within Core and adding the implementation within Infrastructure.**
+
+
+**Guys download or clone my template solution, note  that I mean EAI.Abp.Template.zip file only, and paste as is in this path** 
+## C:\Users\[your user name]\OneDrive\documents\Visual Studio 2019\Templates\ProjectTemplates 
