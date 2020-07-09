@@ -24,3 +24,15 @@ The Domain layer contains enterprise logic and types and the Application layer c
 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/tyenw4ffs00j4sav/branch/dev?svg=true)](https://ci.appveyor.com/project/mohsenTalal/security-openidconnect/branch/master)
+
+
+> Note: **Clean-Architecture-with-.NET-Core-3.1-Abp.io**.
+## Support
+
+**Need help or wanna share your thoughts?** Don't hesitate to join us on Gitter or ask your question on StackOverflow:
+
+- **StackOverflow: [https://stackexchange.com/users/13936221/abdul-mohsen-al-enazi](https://stackexchange.com/users/13936221/abdul-mohsen-al-enazi)**
+
+## Contributors
+
+**Clean-Architecture-with-.NET-Core-3.1-Abp.io** is actively maintained by **[Mohsen Talal](https://github.com/mohsenTalal)**. Contributions are welcome and can be submitted using pull requests.
