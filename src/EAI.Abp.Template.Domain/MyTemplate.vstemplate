@@ -1,0 +1,34 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EAI.Abp.Template.Domain</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EAI.Abp.Template.Domain</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EAI.Abp.Template.Domain.csproj" File="EAI.Abp.Template.Domain.csproj" ReplaceParameters="true">
+	 <Folder Name="Basis" TargetFolderName="Basis">
+        <ProjectItem ReplaceParameters="true" TargetFileName="IAudited.cs">IAudited.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Data" TargetFolderName="Data">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DbMigrationService.cs">DbMigrationService.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IDbSchemaMigrator.cs">IDbSchemaMigrator.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="NullDbSchemaMigrator.cs">NullDbSchemaMigrator.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Products" TargetFolderName="Products">
+        <ProjectItem ReplaceParameters="true" TargetFileName="IProductRepository.cs">IProductRepository.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Product.cs">Product.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DomainModule.cs">DomainModule.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,32 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Thiqah.PaymentGateway.BillServices.EfCore.DbMigrations</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Thiqah.PaymentGateway.BillServices.EfCore.DbMigrations</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Thiqah.PaymentGateway.BillServices.EfCore.DbMigrations.csproj" File="Thiqah.PaymentGateway.BillServices.EfCore.DbMigrations.csproj" ReplaceParameters="true">
+      <Folder Name="EfCore" TargetFolderName="EfCore">
+        <ProjectItem ReplaceParameters="true" TargetFileName="EfCoreDbMigrationsModule.cs">EfCoreDbMigrationsModule.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EfCoreDbSchemaMigrator.cs">EfCoreDbSchemaMigrator.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MigrationsDbContext.cs">MigrationsDbContext.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MigrationsDbContextFactory.cs">MigrationsDbContextFactory.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Migrations" TargetFolderName="Migrations">
+        <ProjectItem ReplaceParameters="true" TargetFileName="20200115132735_init.cs">20200115132735_init.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="20200123121047_addAuditing.cs">20200123121047_addAuditing.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MigrationsDbContextModelSnapshot.cs">MigrationsDbContextModelSnapshot.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

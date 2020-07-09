@@ -1,0 +1,26 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EAI.Abp.Template.EfCore</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EAI.Abp.Template.EfCore</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EAI.Abp.Template.EfCore.csproj" File="EAI.Abp.Template.EfCore.csproj" ReplaceParameters="true">
+      <Folder Name="EfCore" TargetFolderName="EfCore">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BillServicesDbContext.cs">BillServicesDbContext.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="BillServicesDbContextModelCreatingExtensions.cs">BillServicesDbContextModelCreatingExtensions.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EfCoreModule.cs">EfCoreModule.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

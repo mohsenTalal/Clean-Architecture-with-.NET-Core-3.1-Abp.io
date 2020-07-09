@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>$safeprojectname$</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="2.0.0" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="2.0.0" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\$ext_projectname$.EfCore\$ext_projectname$.EfCore.csproj" />
+  </ItemGroup>
+
+</Project>

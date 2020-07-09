@@ -1,0 +1,60 @@
+﻿<VSTemplate Version="3.1.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>EAI Abp</Name>
+    <Description>An EAI ABP.io template for creating a new EAI project Abp is a complete architecture and strong infrastructure, By mohsenTalal :)</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EAI</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>img.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+	    <SolutionFolder Name="src">  
+			  <ProjectTemplateLink ProjectName="$projectname$.Application" CopyParameters="true">
+				src\EAI.Abp.Template.Application\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+			  <ProjectTemplateLink ProjectName="$projectname$.Application.Contracts" CopyParameters="true">
+				src\EAI.Abp.Template.Application.Contracts\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+			  <ProjectTemplateLink ProjectName="$projectname$.Domain" CopyParameters="true">
+				src\EAI.Abp.Template.Domain\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+			   <ProjectTemplateLink ProjectName="$projectname$.Domain.Shared" CopyParameters="true">
+				src\EAI.Abp.Template.Domain.Shared\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+			   <ProjectTemplateLink ProjectName="$projectname$.EfCore" CopyParameters="true">
+				src\EAI.Abp.Template.EfCore\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+			   <ProjectTemplateLink ProjectName="$projectname$.EfCore.DbMigrations" CopyParameters="true">
+				src\EAI.Abp.Template.EfCore.DbMigrations\MyTemplate.vstemplate 
+			  </ProjectTemplateLink>
+			   <ProjectTemplateLink ProjectName="$projectname$.HttpApi" CopyParameters="true">
+				src\EAI.Abp.Template.HttpApi\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+			  <ProjectTemplateLink ProjectName="$projectname$.HttpApi.Host" CopyParameters="true">
+				src\EAI.Abp.Template.HttpApi.Host\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+		</SolutionFolder>
+        <SolutionFolder Name="test">  
+			  <ProjectTemplateLink ProjectName="$projectname$.Application.Tests" CopyParameters="true">
+			   test\EAI.Abp.Template.Application.Tests\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+			  <ProjectTemplateLink ProjectName="$projectname$.Domain.Tests" CopyParameters="true">
+				test\EAI.Abp.Template.Domain.Tests\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+			  <ProjectTemplateLink ProjectName="$projectname$.EfCore.Tests" CopyParameters="true">
+				test\EAI.Abp.Template.EfCore.Tests\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+			   <ProjectTemplateLink ProjectName="$projectname$.TestBase" CopyParameters="true">
+				test\EAI.Abp.Template.TestBase\MyTemplate.vstemplate
+			  </ProjectTemplateLink>
+	    </SolutionFolder>
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>
