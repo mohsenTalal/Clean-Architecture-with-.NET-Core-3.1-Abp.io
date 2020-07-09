@@ -21,3 +21,6 @@ The Domain layer contains enterprise logic and types and the Application layer c
 
 **Guys download or clone my template solution, note  that I mean EAI.Abp.Template.zip file only, and paste as is in this path** 
 ## C:\Users\[your user name]\OneDrive\documents\Visual Studio 2019\Templates\ProjectTemplates 
+
+
+[![Build status](https://ci.appveyor.com/api/projects/status/tyenw4ffs00j4sav/branch/dev?svg=true)](https://ci.appveyor.com/project/mohsenTalal/security-openidconnect/branch/master)
